@@ -1,0 +1,90 @@
+body {
+  background-image: url("bg.webp");
+  margin: 0;
+  height: 110vh;
+}
+header {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.logobox {
+  display: inline-block;
+  width: 150px;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nevbox {
+  width: 600px;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  transition: all 0.5s;
+}
+.nevbox > a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+.nevbox > a:hover {
+  color: salmon;
+}
+#homie {
+  color: salmon;
+}
+.heading {
+  color: salmon;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  position: relative;
+  top: 60px;
+  left: 70px;
+  width: 500px;
+}
+.heading + h3 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  width: 500px;
+}
+.heading + h3 + p {
+  color: white;
+  font-family: "Roboto";
+  width: 600px;
+  position: relative;
+  left: 80px;
+  word-spacing: 4px;
+  top: 10px;
+  font-style: italic;
+}
+.btn {
+  width: 150px;
+  padding: 15px;
+  border: none;
+  background-color: salmon;
+  color: rgb(14, 13, 13);
+  font-family: "Roboto", sans-serif;
+  border: 2px solid salmon;
+  position: relative;
+  left: 80px;
+  top: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: rgba(240, 216, 199, 0);
+  color: white;
+}
+footer {
+  color: white;
+  font-family: "Roboto";
+  position: fixed;
+  bottom: 0;
+}
